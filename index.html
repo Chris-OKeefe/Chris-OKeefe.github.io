@@ -1,53 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Chris O&#39;Keefe by Chris-OKeefe</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Chris O&#39;Keefe</h1>
-        <p>Data | Experiments | Code</p>
+<div class="home">
 
+  <h1 class="page-heading">Posts</h1>
 
-        <p class="view"><a href="https://github.com/Chris-OKeefe">View My GitHub Profile</a></p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      </header>
-      <section>
         <h2>
-<a id="what-im-working-on" class="anchor" href="#what-im-working-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>What I'm Working On</h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<h3>
-<a id="data-analysis--statistics" class="anchor" href="#data-analysis--statistics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Analysis &amp; Statistics</h3>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<p>I'm currently taking a Stanford Online's course on <a href="https://class.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about">Statistical Learning</a>. I did most of the work for Coursera's <a href="https://www.coursera.org/course/rprog">R Programming</a> and <a href="https://www.coursera.org/course/getdata">Getting and Cleaning Data</a> courses.</p>
-
-<h3>
-<a id="coding" class="anchor" href="#coding" aria-hidden="true"><span class="octicon octicon-link"></span></a>Coding</h3>
-
-<h4>
-<a id="sql" class="anchor" href="#sql" aria-hidden="true"><span class="octicon octicon-link"></span></a>SQL</h4>
-
-<h4>
-<a id="r" class="anchor" href="#r" aria-hidden="true"><span class="octicon octicon-link"></span></a>R</h4>
-
-<h4>
-<a id="python--pythons-data-analysis-tools-mostly-pandas-right-now" class="anchor" href="#python--pythons-data-analysis-tools-mostly-pandas-right-now" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python &amp; Python's data analysis tools (mostly pandas right now)</h4>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+</div>
