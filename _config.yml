@@ -9,7 +9,7 @@
 title: Data | Code | Experiments
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a data analyst, experiment designer, and budding programmer. This is my Git$
+  I'm a data analyst, experiment designer, and budding programmer.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Abu_Casey
