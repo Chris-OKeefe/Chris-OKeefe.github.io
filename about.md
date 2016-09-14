@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'm a data analyst, experiment designer, and budding programmer. This is my GitHub site.
+I'm a data analyst, experiment designer, and budding programmer.
