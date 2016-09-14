@@ -18,4 +18,4 @@ github_username:  Chris-OKeefe
 # Build settings
 markdown: kramdown
 
-port: 3000 # change server port to 3000
+port: 4000 # change server port to 4000
