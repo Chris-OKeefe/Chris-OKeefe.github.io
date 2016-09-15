@@ -5,6 +5,7 @@ permalink: /papers
 ---
 
 Past Research Projects:
+
 * [Proliferation of regional and multilateral development institutions]({{site.url}}/papers/Explaining Multilateral Aid.APSA.8.25.08.pdf)
 What does the proliferation of development institutions look like? What are some possible causes? Created and visualized data on 205 countries in 19 international organizations over 6 years.
 
